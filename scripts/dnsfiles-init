@@ -1,4 +1,10 @@
 #! /usr/bin/python
 
-print("INIT!")
+import dnsfiles.actions as df
+
+if __name__ == "__main__":
+  store = df.init_store()
+  dns = df.init_dns_service()
+  df.init(store, dns)
+
 
