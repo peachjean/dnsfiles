@@ -1,5 +1,5 @@
-from files import DnsFileStore
-from gandi import GandiDns
+from dnsfiles.files import DnsFileStore
+from dnsfiles.gandi import GandiDns
 
 def init_store():
   return DnsFileStore('.')
