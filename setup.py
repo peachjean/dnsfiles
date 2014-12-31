@@ -8,5 +8,7 @@ setup(name='dnsfiles',
       author='Jared Bunting',
       author_email='jared.bunting@peachjean.com',
       url='https://github.com/peachjean/dnsfiles',
-      packages=[],
+      packages=['dnsfiles'],
+      scripts=['scripts/dnsfiles-init', 'scripts/dnsfiles-sync'],
+      install_requires=['pyyaml>=3.11'],
      )
