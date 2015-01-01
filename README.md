@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/peachjean/dnsfiles.svg)](https://travis-ci.org/peachjean/dnsfiles)
+
 This is a simple python script that will allow us to update gandi dns based on 
 some zone files stored on disk.
 
