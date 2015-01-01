@@ -11,4 +11,5 @@ deploy:
     secure: auKXo04psn1SYf63ElAhyjNJqUqD8cpRJNlby1iMq3QX01sWzyRVSzno9+4IGNOepG9D96BH/sqtWGpWh1uOyKEl2OhlAFtafcVFlFC9IBslsiVGTlsDaPvkM1jSHxlby+h21i4EU7Q0L1IEWXaagN8gmtJkoQPnR8LhqtjVZ4g=
   on:
     tags: true
+    all_branches: true
     repo: peachjean/dnsfiles
