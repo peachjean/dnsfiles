@@ -8,7 +8,7 @@ deploy:
   provider: pypi
   user: jared.bunting
   password:
-    secure: SrJio/n7v6WzLAcU4Y3LpQHlK/xwiZT0zRcZMywrGdbywwxAIfvlNG0bNs+3C+q58dlfl5dQmSQ+HgxQcZTt0Jb5/54DFVVdnBfBybAmR1C8Hgx0i5a0T7H9LUKRBRqg2EoIRznjEmsVEd2w4KcPMMehja19Qgiw9r6kmycO86U=
+    secure: "d+K+DLxSZW8wqI7LtZF5y3/uq+MXUgQh4FX6m9r4elSFYL1hfOODqJa7bDe39fbIg4HvZ2JwBLhetkog5WRtY5F+V24mNAFS18zVd7oOZ5UECzQp5YoNKzXZNuis87c6NTG4HWSla6TsuUJBB+6LWlRQ6pkEDF9UYzBgQGefx6w="
   allow_failure: false
   on:
     tags: true
