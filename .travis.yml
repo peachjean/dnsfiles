@@ -1,8 +1,14 @@
 language: python
 python:
-  - "3.4"
-# command to install dependencies
+- '3.4'
 install:
-  - "pip install ."
-# command to run tests
+- pip install .
 script: nosetests
+deploy:
+  provider: pypi
+  user: jared.bunting
+  password:
+    secure: auKXo04psn1SYf63ElAhyjNJqUqD8cpRJNlby1iMq3QX01sWzyRVSzno9+4IGNOepG9D96BH/sqtWGpWh1uOyKEl2OhlAFtafcVFlFC9IBslsiVGTlsDaPvkM1jSHxlby+h21i4EU7Q0L1IEWXaagN8gmtJkoQPnR8LhqtjVZ4g=
+  on:
+    tags: true
+    repo: peachjean/dnsfiles
